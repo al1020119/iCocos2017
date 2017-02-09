@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53913DF1E4C3BC600981A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53913DE1E4C3BC600981A0A /* main.m */; };
+		B53913E21E4C3BC600981A0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53913E11E4C3BC600981A0A /* AppDelegate.m */; };
+		B53913E51E4C3BC600981A0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53913E41E4C3BC600981A0A /* ViewController.m */; };
+		B53913E81E4C3BC600981A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53913E61E4C3BC600981A0A /* Main.storyboard */; };
+		B53913EA1E4C3BC600981A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53913E91E4C3BC600981A0A /* Assets.xcassets */; };
+		B53913ED1E4C3BC600981A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53913EB1E4C3BC600981A0A /* LaunchScreen.storyboard */; };
+		B53913F81E4C3BC600981A0A /* iCocos2017Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53913F71E4C3BC600981A0A /* iCocos2017Tests.m */; };
+		B53914031E4C3BC600981A0A /* iCocos2017UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53914021E4C3BC600981A0A /* iCocos2017UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B53913F41E4C3BC600981A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53913D21E4C3BC600981A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53913D91E4C3BC600981A0A;
+			remoteInfo = iCocos2017;
+		};
+		B53913FF1E4C3BC600981A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53913D21E4C3BC600981A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53913D91E4C3BC600981A0A;
+			remoteInfo = iCocos2017;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B53913DA1E4C3BC600981A0A /* iCocos2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCocos2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53913DE1E4C3BC600981A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B53913E01E4C3BC600981A0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B53913E11E4C3BC600981A0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B53913E31E4C3BC600981A0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B53913E41E4C3BC600981A0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B53913E71E4C3BC600981A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B53913E91E4C3BC600981A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B53913EC1E4C3BC600981A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B53913EE1E4C3BC600981A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53913F31E4C3BC600981A0A /* iCocos2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCocos2017Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53913F71E4C3BC600981A0A /* iCocos2017Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCocos2017Tests.m; sourceTree = "<group>"; };
+		B53913F91E4C3BC600981A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53913FE1E4C3BC600981A0A /* iCocos2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCocos2017UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53914021E4C3BC600981A0A /* iCocos2017UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCocos2017UITests.m; sourceTree = "<group>"; };
+		B53914041E4C3BC600981A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53913D71E4C3BC600981A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53913F01E4C3BC600981A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53913FB1E4C3BC600981A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53913D11E4C3BC600981A0A = {
+			isa = PBXGroup;
+			children = (
+				B53913DC1E4C3BC600981A0A /* iCocos2017 */,
+				B53913F61E4C3BC600981A0A /* iCocos2017Tests */,
+				B53914011E4C3BC600981A0A /* iCocos2017UITests */,
+				B53913DB1E4C3BC600981A0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53913DB1E4C3BC600981A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53913DA1E4C3BC600981A0A /* iCocos2017.app */,
+				B53913F31E4C3BC600981A0A /* iCocos2017Tests.xctest */,
+				B53913FE1E4C3BC600981A0A /* iCocos2017UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53913DC1E4C3BC600981A0A /* iCocos2017 */ = {
+			isa = PBXGroup;
+			children = (
+				B53913E01E4C3BC600981A0A /* AppDelegate.h */,
+				B53913E11E4C3BC600981A0A /* AppDelegate.m */,
+				B53913E31E4C3BC600981A0A /* ViewController.h */,
+				B53913E41E4C3BC600981A0A /* ViewController.m */,
+				B53913E61E4C3BC600981A0A /* Main.storyboard */,
+				B53913E91E4C3BC600981A0A /* Assets.xcassets */,
+				B53913EB1E4C3BC600981A0A /* LaunchScreen.storyboard */,
+				B53913EE1E4C3BC600981A0A /* Info.plist */,
+				B53913DD1E4C3BC600981A0A /* Supporting Files */,
+			);
+			path = iCocos2017;
+			sourceTree = "<group>";
+		};
+		B53913DD1E4C3BC600981A0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53913DE1E4C3BC600981A0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B53913F61E4C3BC600981A0A /* iCocos2017Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B53913F71E4C3BC600981A0A /* iCocos2017Tests.m */,
+				B53913F91E4C3BC600981A0A /* Info.plist */,
+			);
+			path = iCocos2017Tests;
+			sourceTree = "<group>";
+		};
+		B53914011E4C3BC600981A0A /* iCocos2017UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B53914021E4C3BC600981A0A /* iCocos2017UITests.m */,
+				B53914041E4C3BC600981A0A /* Info.plist */,
+			);
+			path = iCocos2017UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53913D91E4C3BC600981A0A /* iCocos2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53914071E4C3BC600981A0A /* Build configuration list for PBXNativeTarget "iCocos2017" */;
+			buildPhases = (
+				B53913D61E4C3BC600981A0A /* Sources */,
+				B53913D71E4C3BC600981A0A /* Frameworks */,
+				B53913D81E4C3BC600981A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCocos2017;
+			productName = iCocos2017;
+			productReference = B53913DA1E4C3BC600981A0A /* iCocos2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53913F21E4C3BC600981A0A /* iCocos2017Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B539140A1E4C3BC600981A0A /* Build configuration list for PBXNativeTarget "iCocos2017Tests" */;
+			buildPhases = (
+				B53913EF1E4C3BC600981A0A /* Sources */,
+				B53913F01E4C3BC600981A0A /* Frameworks */,
+				B53913F11E4C3BC600981A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53913F51E4C3BC600981A0A /* PBXTargetDependency */,
+			);
+			name = iCocos2017Tests;
+			productName = iCocos2017Tests;
+			productReference = B53913F31E4C3BC600981A0A /* iCocos2017Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B53913FD1E4C3BC600981A0A /* iCocos2017UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B539140D1E4C3BC600981A0A /* Build configuration list for PBXNativeTarget "iCocos2017UITests" */;
+			buildPhases = (
+				B53913FA1E4C3BC600981A0A /* Sources */,
+				B53913FB1E4C3BC600981A0A /* Frameworks */,
+				B53913FC1E4C3BC600981A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53914001E4C3BC600981A0A /* PBXTargetDependency */,
+			);
+			name = iCocos2017UITests;
+			productName = iCocos2017UITests;
+			productReference = B53913FE1E4C3BC600981A0A /* iCocos2017UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53913D21E4C3BC600981A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iCocos;
+				TargetAttributes = {
+					B53913D91E4C3BC600981A0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GS6WCB5C2T;
+						ProvisioningStyle = Automatic;
+					};
+					B53913F21E4C3BC600981A0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GS6WCB5C2T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B53913D91E4C3BC600981A0A;
+					};
+					B53913FD1E4C3BC600981A0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GS6WCB5C2T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B53913D91E4C3BC600981A0A;
+					};
+				};
+			};
+			buildConfigurationList = B53913D51E4C3BC600981A0A /* Build configuration list for PBXProject "iCocos2017" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B53913D11E4C3BC600981A0A;
+			productRefGroup = B53913DB1E4C3BC600981A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53913D91E4C3BC600981A0A /* iCocos2017 */,
+				B53913F21E4C3BC600981A0A /* iCocos2017Tests */,
+				B53913FD1E4C3BC600981A0A /* iCocos2017UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53913D81E4C3BC600981A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53913ED1E4C3BC600981A0A /* LaunchScreen.storyboard in Resources */,
+				B53913EA1E4C3BC600981A0A /* Assets.xcassets in Resources */,
+				B53913E81E4C3BC600981A0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53913F11E4C3BC600981A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53913FC1E4C3BC600981A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53913D61E4C3BC600981A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53913E51E4C3BC600981A0A /* ViewController.m in Sources */,
+				B53913E21E4C3BC600981A0A /* AppDelegate.m in Sources */,
+				B53913DF1E4C3BC600981A0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53913EF1E4C3BC600981A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53913F81E4C3BC600981A0A /* iCocos2017Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53913FA1E4C3BC600981A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53914031E4C3BC600981A0A /* iCocos2017UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B53913F51E4C3BC600981A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53913D91E4C3BC600981A0A /* iCocos2017 */;
+			targetProxy = B53913F41E4C3BC600981A0A /* PBXContainerItemProxy */;
+		};
+		B53914001E4C3BC600981A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53913D91E4C3BC600981A0A /* iCocos2017 */;
+			targetProxy = B53913FF1E4C3BC600981A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B53913E61E4C3BC600981A0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53913E71E4C3BC600981A0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B53913EB1E4C3BC600981A0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53913EC1E4C3BC600981A0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B53914051E4C3BC600981A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B53914061E4C3BC600981A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B53914081E4C3BC600981A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GS6WCB5C2T;
+				INFOPLIST_FILE = iCocos2017/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCocos.iCocos2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B53914091E4C3BC600981A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GS6WCB5C2T;
+				INFOPLIST_FILE = iCocos2017/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCocos.iCocos2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B539140B1E4C3BC600981A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GS6WCB5C2T;
+				INFOPLIST_FILE = iCocos2017Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCocos.iCocos2017Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCocos2017.app/iCocos2017";
+			};
+			name = Debug;
+		};
+		B539140C1E4C3BC600981A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GS6WCB5C2T;
+				INFOPLIST_FILE = iCocos2017Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCocos.iCocos2017Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCocos2017.app/iCocos2017";
+			};
+			name = Release;
+		};
+		B539140E1E4C3BC600981A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GS6WCB5C2T;
+				INFOPLIST_FILE = iCocos2017UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCocos.iCocos2017UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iCocos2017;
+			};
+			name = Debug;
+		};
+		B539140F1E4C3BC600981A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GS6WCB5C2T;
+				INFOPLIST_FILE = iCocos2017UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCocos.iCocos2017UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iCocos2017;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53913D51E4C3BC600981A0A /* Build configuration list for PBXProject "iCocos2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53914051E4C3BC600981A0A /* Debug */,
+				B53914061E4C3BC600981A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53914071E4C3BC600981A0A /* Build configuration list for PBXNativeTarget "iCocos2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53914081E4C3BC600981A0A /* Debug */,
+				B53914091E4C3BC600981A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B539140A1E4C3BC600981A0A /* Build configuration list for PBXNativeTarget "iCocos2017Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B539140B1E4C3BC600981A0A /* Debug */,
+				B539140C1E4C3BC600981A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B539140D1E4C3BC600981A0A /* Build configuration list for PBXNativeTarget "iCocos2017UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B539140E1E4C3BC600981A0A /* Debug */,
+				B539140F1E4C3BC600981A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53913D21E4C3BC600981A0A /* Project object */;
+}
